@@ -861,23 +861,23 @@ label {
 
 /*секція кнопок*/
 
-.setion-on {
+.setion__on {
   padding-top: 94px;
 }
 
-.button-filters {
+.button__filters {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
   margin-bottom: 54px;
 }
 
-.button-ul {
+.button__list {
   display: flex;
   justify-content: center;
 }
 
-.button-li:not(:last-child) {
+.button__items:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -909,13 +909,13 @@ button:focus {
 
 /*початок основи портфоліо*/
 
-.function-portfolio-section {
+.section__function-portfolio {
   width: 1200px;
   margin: 0 auto 0 auto;
   padding: 0 15px 94px 15px;
 }
 
-.function-portfolio-ul {
+.function__list-portfolio {
   display: flex;
   flex-wrap: wrap;
   width: 1200px;
@@ -924,13 +924,13 @@ button:focus {
   margin: 0 auto 94px auto;
 }
 
-.function-portfolio-li {
+.function__items-portfolio {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 27px;
   margin-bottom: 30px;
 }
 
-.function-portfolio-adres {
+.function__link-portfolio {
   display: block;
   text-decoration: none;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -942,7 +942,7 @@ button:focus {
   overflow: hidden;
 }
 
-.curtains-blocs {
+.curtains__blocs {
   font-size: 18px;
   line-height: 28px;
   position: absolute;
@@ -956,7 +956,7 @@ button:focus {
   transition: transform 2250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.curtains-text {
+.curtains__text {
   color: var(--title-color);
   font-family: Roboto;
   font-style: normal;
@@ -964,14 +964,14 @@ button:focus {
   margin: 63px 24px;
 }
 
-.function-portfolio-adres:hover,
-.function-portfolio-adres:focus {
+.function__link-portfolio:hover,
+.function__link-portfolio:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.function-portfolio-adres:hover .curtains-blocs,
-.function-portfolio-adres:focus .curtains-blocs {
+.function__link-portfolio:hover .curtains__blocs,
+.function__link-portfolio:focus .curtains__blocs {
   transform: translateY(0);
 }
 .cart {

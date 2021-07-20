@@ -144,7 +144,7 @@ li {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.adrec__icon-svg {
+.adrec__logo-svg {
   margin-right: 5px;
   fill: currentColor;
 }
@@ -263,11 +263,11 @@ li {
   box-shadow: none;
 }
 
-.icons__close {
+.logo__close {
   color-adjust: #000;
 }
 
-.icons__close:hover {
+.logo__close:hover {
   fill: var(--web-color);
 }
 
@@ -318,8 +318,8 @@ label {
   overflow: hidden;
 }
 
-.window__inputs-box:focus + .window__inputs-icon,
-.window__inputs-box:hover + .window__inputs-icon {
+.window__inputs-box:focus + .window__logo-icon,
+.window__inputs-box:hover + .window__logo-icon {
   fill: var(--web-color);
 }
 
@@ -333,7 +333,7 @@ label {
   margin-bottom: 12px;
 }
 
-.window__inputs-icon {
+.window__logo-icon {
   fill: currentColor;
   position: absolute;
   fill: var(--title-cl);
@@ -457,7 +457,7 @@ label {
   background-color: var(--sector-bg-color);
 }
 
-.social__icons--svg {
+.social__logo--svg {
   width: 70px;
   height: 70px;
   border-radius: 4px;
@@ -618,7 +618,7 @@ label {
   color: var(--title-color);
 }
 
-.social-icons-svg-comando {
+.social__logo-svg-comando {
   fill: currentColor;
 }
 
@@ -666,13 +666,13 @@ label {
 
 .customer__link:focus,
 .customer__link:hover,
-.customer-icons-svg:hover,
-.customer-icons-svg:focus {
+.customer__logo-svg:hover,
+.customer__logo-svg:focus {
   color: var(--web-color);
   border-color: var(--web-color);
 }
 
-.customer-icons-svg {
+.customer__logo-svg {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -761,7 +761,7 @@ label {
   background-color: var(--web-color);
 }
 
-.footer-social-icons-svg {
+.footer-social__logo-svg {
   fill: var(--title-color);
   margin: 0;
 }
@@ -832,7 +832,7 @@ label {
   margin-right: 0;
 }
 
-.svg-email {
+.logo__email {
   fill: var(--title-color);
   margin-left: 10px;
 }
